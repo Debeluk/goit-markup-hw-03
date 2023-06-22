@@ -351,3 +351,10 @@ width: calc((100% - 3*24px) /4 );
 .deeds-item:first-child{
   margin-left: 156px;
 }
+
+
+/* Formalization section 4*/
+
+.team-flex{
+  padding-top: 120px;
+}
