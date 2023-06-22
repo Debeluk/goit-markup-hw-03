@@ -345,7 +345,7 @@ width: calc((100% - 3*24px) /4 );
 }
 
 .deeds-item{
-  width: calc((100%-2*24px) /3 );
+  width: calc((100% - 2 * 24px) / 3)
 }
 
 .deeds-item:first-child{
@@ -356,5 +356,33 @@ width: calc((100% - 3*24px) /4 );
 /* Formalization section 4*/
 
 .team-flex{
-  padding-top: 120px;
+  padding-top: 120px 0;
+}
+
+.team-h {
+  margin-bottom: 72px;
+}
+
+.team-list-flex{
+  display: flex;
+  gap: 24px;
+}
+
+.members-flex{
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.name_job{
+  padding: 32px 16px;
+}
+
+.team-person-h{
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-person-p{
+  text-align: center;
+  margin-bottom: 8px;
 }
