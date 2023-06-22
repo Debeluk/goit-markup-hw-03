@@ -282,15 +282,12 @@ img {
 
 .hero-flex {
   padding: 188px 0;      
-  justify-content: center;
-  align-items: center;                                     /* Завеликий падінг? */
+  margin: 0 auto;                                    /* Завеликий падінг? */
 }
 
 .solutions-flex {
   max-width: 496px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: 0 auto;  
 }
 
 .hero-button-flex {
@@ -301,7 +298,7 @@ img {
   background-color: var(--button-background);
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 636px;
+  margin: 0 auto;
 }
 
 /* Formalization section 2*/
@@ -309,12 +306,12 @@ img {
 .advantages-container-list {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
-  text-align: center;
+  margin: 0 auto;  
 }
 
 .advantages-container-list-item {
   width: calc((100% - 3 * 24px) / 4);
+  margin: 0 auto;  
 }
 
 .advantages-h {
@@ -322,13 +319,8 @@ img {
 }
 
 .advantages-flex {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.advantages-flex {
-  padding: 120px 0;                                                   /* Завеликий падінг? */
+  padding: 120px 0;
+  margin: 0 auto;                                                     /* Завеликий падінг? */
 }
 
 /* Formalization section 3*/
