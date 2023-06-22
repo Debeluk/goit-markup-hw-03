@@ -12,7 +12,7 @@
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -218,10 +218,16 @@ a {
   color: var(--second-text-color);
 }
 
-
 /* Formalization */
 
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   padding: 0;
   margin: 0;
 }
@@ -233,7 +239,6 @@ img {
 .container {
   width: 1158px;
 }
-
 
 /* Formalization header*/
 
@@ -247,7 +252,7 @@ img {
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .nav-flex {
@@ -255,7 +260,7 @@ img {
   align-items: center;
 }
 
-.logo-header{
+.logo-header {
   margin-right: 76px;
 }
 
@@ -270,14 +275,13 @@ img {
 
 .address-flex {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
-
 
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 188px 0;                                   /* Завелике */
+  padding: 188px 0; /* Завелике */
 }
 
 .solutions-flex {
@@ -299,14 +303,14 @@ img {
 
 /* Formalization section 2*/
 
-.advantages-container-list{
+.advantages-container-list {
   display: flex;
   gap: 24px;
   justify-content: space-between;
 }
 
-.advantages-container-list-item{
-width: calc((100% - 3*24px) /4 );
+.advantages-container-list-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .advantages-h {
@@ -319,18 +323,18 @@ width: calc((100% - 3*24px) /4 );
   margin: 120px 156px;
 }
 
-.advantages-flex{
-  padding: 120px 0;                                     /* Завелике */
+.advantages-flex {
+  padding: 120px 0; /* Завелике */
 }
 
 /* Formalization section 3*/
 
-.deeds-flex{
+.deeds-flex {
   padding-bottom: 120px;
   text-align: center;
 }
 
-.deeds-h{
+.deeds-h {
   margin-bottom: 72px;
   margin-left: 558px;
   margin-right: 559px;
@@ -338,21 +342,23 @@ width: calc((100% - 3*24px) /4 );
   width: 323px;
 }
 
-.deeds-list{
+.deeds-list {
   display: flex;
   gap: 24px;
 }
 
-.deeds-item{
+.deeds-item {
   display: flex;
-  width: calc((100% - 48px) / 3);               /* Ніяк не можу зрозуміти, чому не вирівнюються*/
+  width: calc(
+    (100% - 48px) / 3
+  ); /* Ніяк не можу зрозуміти чому не вирівнюються*/
   align-items: center;
   justify-content: center;
 }
 
 /* Formalization section 4*/
 
-.team-flex{
+.team-flex {
   padding: 120px 0;
 }
 
@@ -360,25 +366,42 @@ width: calc((100% - 3*24px) /4 );
   margin-bottom: 72px;
 }
 
-.team-list-flex{
+.team-list-flex {
   display: flex;
   gap: 24px;
+  align-items: center;
+  justify-content: center; /* Також не вирівнюються*/
 }
 
-.members-flex{
+.members-flex {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
 }
 
-.name_job{
+.name_job {
   padding: 32px 16px;
 }
 
-.team-person-h{
+.team-person-h {
   margin-bottom: 8px;
   text-align: center;
 }
 
-.team-person-p{
+.team-person-p {
   text-align: center;
+}
+
+/* Formalization footer*/
+
+.footer-flex {
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.p-footer {
+  max-width: 264px;
 }
