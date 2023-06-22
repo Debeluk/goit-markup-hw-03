@@ -281,7 +281,7 @@ img {
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 188px 0; /* Завелике */
+  padding: 188px 0;                                           /* Завеликий падінг? */
 }
 
 .solutions-flex {
@@ -324,20 +324,22 @@ img {
 }
 
 .advantages-flex {
-  padding: 120px 0; /* Завелике */
+  padding: 120px 0;                                                   /* Завеликий падінг? */
 }
 
 /* Formalization section 3*/
 
 .deeds-flex {
   padding-bottom: 120px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .deeds-h {
   margin-bottom: 72px;
-  margin-left: 558px;
-  margin-right: 559px;
+  margin-left: 400px;
   max-width: 323px;
   width: 323px;
 }
@@ -348,18 +350,20 @@ img {
 }
 
 .deeds-item {
-  display: flex;
-  width: calc(
-    (100% - 48px) / 3
-  ); /* Ніяк не можу зрозуміти чому не вирівнюються*/
+  display: block;
+  width: calc((100% - 48px) / 3);
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 /* Formalization section 4*/
 
 .team-flex {
   padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-h {
@@ -369,13 +373,11 @@ img {
 .team-list-flex {
   display: flex;
   gap: 24px;
-  align-items: center;
-  justify-content: center; /* Також не вирівнюються*/
 }
 
 .members-flex {
   width: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;                                   /*Зайва біла лінія*/
 }
 
 .name_job {
