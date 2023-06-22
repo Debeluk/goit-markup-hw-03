@@ -2,6 +2,7 @@
   --main-bg-white: #ffffff;
   --main-text-color: #2e2f42;
   --second-text-color: #434455;
+  --button-background: #4d5ae5;
 }
 
 .logo {
@@ -219,6 +220,9 @@ img {
   width: 1158px;
 }
 
+
+/* Formalization header*/
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -227,6 +231,7 @@ img {
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
+  justify-content:space-between;
 }
 
 .nav-flex {
@@ -250,4 +255,26 @@ img {
 .address-flex {
   display: flex;
   gap:40px;
+}
+
+
+/* Formalization section 1*/
+
+.hero-flex {
+  padding: 188px 0;
+}
+
+.solutions-flex {
+  max-width: 496px;
+}
+
+.hero-button-flex {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--button-background);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 48px 635px 188px;
 }
