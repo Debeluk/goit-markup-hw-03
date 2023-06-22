@@ -290,6 +290,7 @@ img {
   max-width: 496px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .hero-button-flex {
@@ -300,8 +301,7 @@ img {
   background-color: var(--button-background);
   border-radius: 4px;
   cursor: pointer;
-  justify-content: center;
-  align-items: center;
+  margin-left: 636px;
 }
 
 /* Formalization section 2*/
@@ -310,6 +310,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: space-between;
+  text-align: center;
 }
 
 .advantages-container-list-item {
@@ -323,6 +324,7 @@ img {
 .advantages-flex {
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .advantages-flex {
@@ -336,6 +338,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 24px;
 }
 
