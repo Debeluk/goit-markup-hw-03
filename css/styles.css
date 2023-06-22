@@ -341,17 +341,14 @@ width: calc((100% - 3*24px) /4 );
 .deeds-list{
   display: flex;
   gap: 24px;
-
 }
 
 .deeds-item{
+  display: flex;
   width: calc((100% - 48px) / 3);
+  align-items: center;
+  justify-content: center;
 }
-
-.deeds-item:first-child{
-  margin-left: 156px;
-}
-
 
 /* Formalization section 4*/
 
