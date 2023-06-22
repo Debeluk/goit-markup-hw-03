@@ -277,7 +277,7 @@ img {
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 94px 0;
+  padding: 188px 0;                                   /* 94px */
 }
 
 .solutions-flex {
@@ -321,4 +321,37 @@ width: calc((100% - 3*24px) /4 );
   max-width: 1128px;
   width: 1128px;
   margin: 120px 156px;
+}
+
+.advantages-flex{
+  padding: 120px 0;                                     /* 60рх */
+}
+
+/* Formalization section 3*/
+
+.deeds-flex{
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.deeds-h{
+  margin-bottom: 72px;
+  margin-left: 558px;
+  margin-right: 559px;
+  max-width: 323px;
+  width: 323px;
+}
+
+.deeds-list{
+  display: flex;
+  gap: 24px;
+
+}
+
+.deeds-item{
+  width: calc((100%-2*24px) /3 );
+}
+
+.deeds-item:first-child{
+  margin-left: 156px;
 }
