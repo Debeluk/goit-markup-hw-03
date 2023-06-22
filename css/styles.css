@@ -94,7 +94,6 @@ footer .logo-studio:focus {
   font-weight: 900;
   line-height: 1.07;
   color: #ffffff;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -236,7 +235,7 @@ img {
   display: block;
 }
 
-.container {
+.header-container {
   width: 1158px;
 }
 
@@ -281,13 +280,13 @@ img {
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 188px 0;      
-  margin: 0 auto;                                    /* Завеликий падінг? */
+  padding: 188px 0;                                       
 }
 
 .solutions-flex {
+  display: flex;
   max-width: 496px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .hero-button-flex {
@@ -298,20 +297,23 @@ img {
   background-color: var(--button-background);
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 48px auto 188px;
 }
 
 /* Formalization section 2*/
 
+.advantages-container{
+  width: 1158px;
+  margin: 0 auto;
+}
+
 .advantages-container-list {
   display: flex;
-  gap: 24px;
-  margin: 0 auto;  
+  gap: 24px; 
 }
 
 .advantages-container-list-item {
-  width: calc((100% - 3 * 24px) / 4);
-  margin: 0 auto;  
+  width: calc((100% - 3 * 24px) / 4); 
 }
 
 .advantages-h {
@@ -320,7 +322,8 @@ img {
 
 .advantages-flex {
   padding: 120px 0;
-  margin: 0 auto;                                                     /* Завеликий падінг? */
+  margin: 0 auto;
+  display: flex;                                                     /* Завеликий падінг? */
 }
 
 /* Formalization section 3*/
