@@ -235,10 +235,6 @@ img {
   display: block;
 }
 
-.header-container {
-  width: 1158px;
-}
-
 /* Formalization header*/
 
 .header {
@@ -252,6 +248,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   justify-content: space-between;
+  width: 1158px;
 }
 
 .nav-flex {
