@@ -5,6 +5,20 @@
   --button-background: #4d5ae5;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -225,6 +239,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 21px;
+  padding-top: 18px;
 }
 
 .header-container {
@@ -261,11 +277,17 @@ img {
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 188px 0;
+  padding: 94px 0;
 }
 
 .solutions-flex {
+  width: 496px;
   max-width: 496px;
+  margin: 188px 472px 48px;
+}
+
+.hero-container{
+  width: 1440px;
 }
 
 .hero-button-flex {
@@ -277,4 +299,26 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin: 48px 635px 188px;
+}
+
+/* Formalization section 2*/
+
+.advantages-container-list{
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.advantages-container-list-item{
+width: calc((100% - 3*24px) /4 );
+}
+
+.advantages-h {
+  margin-bottom: 8px;
+}
+
+.advantages-flex {
+  max-width: 1128px;
+  width: 1128px;
+  margin: 120px 156px;
 }
