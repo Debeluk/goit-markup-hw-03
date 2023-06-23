@@ -439,12 +439,11 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  justify-content: center;
-  width: calc((100% - 48px) / 3);                                     /* Нерівні фото із текстом */
+  justify-content: center;                                  /* Нерівні фото із текстом */
 }
 
 .portfolio-list{
-  width: calc((100% - 48px) / 3);
+  width: calc((1158px - 48px) / 3);
 }
 
 .name_category{
