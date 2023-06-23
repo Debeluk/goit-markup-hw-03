@@ -278,8 +278,7 @@ img {
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 188px 0;
-  width: 1440;                                       
+  padding: 188px 0;                                              /* Завеликий bottom падінг? */ /* Білі лінії по бокам */                                    
 }
 
 .solutions-flex {
@@ -322,7 +321,7 @@ img {
 .advantages-flex {
   padding: 120px 0;
   margin: 0 auto;
-  display: flex;                                                     /* Завеликий падінг? */
+  display: flex;                                                     
 }
 
 /* Formalization section 3*/
@@ -376,7 +375,7 @@ img {
 
 .members-flex {
   width: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;                                   /*Зайва біла лінія*/
+  border-radius: 0 0 4px 4px;                                  
 }
 
 .name_job {
@@ -395,7 +394,7 @@ img {
 /* Formalization footer*/
 
 .footer-flex {
-  padding: 100px 0;
+  padding: 100px 0;                                                         /* Білі лінії по бокам */  
 }
 
 .footer-logo {
@@ -441,6 +440,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   justify-content: center;
+  width: calc((100% - 48px) / 3);                                     /* Нерівні фото із текстом */
 }
 
 .portfolio-list{
