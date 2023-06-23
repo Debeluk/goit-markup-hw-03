@@ -277,8 +277,9 @@ img {
 
 /* Formalization section 1*/
 
-.hero-flex {
+.hero-container {
   padding: 188px 0;                                     /* Завеликий bottom падінг? */ /* Білі лінії по бокам */
+  box-sizing: border-box;
 }
 
 .solutions-flex {
@@ -429,7 +430,7 @@ img {
 .buttons-filter {
   padding: 12px 24px;
   border: 1px solid var(--button-filter-background);
-  border-radius: 3px;                                               /* поставить 4*/
+  border-radius: 4px;                                              
 }
 
 .buttons-filter:hover,
