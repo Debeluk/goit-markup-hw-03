@@ -3,6 +3,7 @@
   --main-text-color: #2e2f42;
   --second-text-color: #434455;
   --button-background: #4d5ae5;
+  --button-filter-background: #e7e9fc;
 }
 
 .visually-hidden {
@@ -406,4 +407,29 @@ img {
 .p-footer {
   max-width: 264px;
   padding-left: 156px;
+}
+
+
+/* Formalization Portfolio main*/
+
+.portfolio-section {
+  padding: 96px 0 120px 0;
+}
+
+.portfolio-filter-list{
+  display:flex;
+  justify-content: center;
+  gap:24px;
+  margin-bottom: 72px;
+}
+
+.buttons-filter{
+  padding: 12px 24px;
+  border: 1px solid var(--button-filter-background);
+  border-radius: 4px;
+}
+
+.buttons-filter:hover, 
+.buttons-filter:focus {
+  border: 1px solid transparent;
 }
