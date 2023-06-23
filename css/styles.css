@@ -426,10 +426,19 @@ img {
 .buttons-filter{
   padding: 12px 24px;
   border: 1px solid var(--button-filter-background);
-  border-radius: 4px;
+  border-radius: 3px;                                       /* поставить 4*/ 
 }
 
 .buttons-filter:hover, 
 .buttons-filter:focus {
   border: 1px solid transparent;
+}
+
+.portfolio-items{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+  width: calc((100% - 48px) / 3);
 }
