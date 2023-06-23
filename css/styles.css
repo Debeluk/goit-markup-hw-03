@@ -279,7 +279,6 @@ img {
 
 .hero-container {
   padding: 188px 0;                                     /* Завеликий bottom падінг? */ /* Білі лінії по бокам */
-  box-sizing: border-box;
 }
 
 .solutions-flex {
