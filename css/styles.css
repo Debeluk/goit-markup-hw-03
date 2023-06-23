@@ -278,7 +278,7 @@ img {
 /* Formalization section 1*/
 
 .hero-flex {
-  padding: 188px 0;                                              /* Завеликий bottom падінг? */ /* Білі лінії по бокам */                                    
+  padding: 188px 0;                                     /* Завеликий bottom падінг? */ /* Білі лінії по бокам */
 }
 
 .solutions-flex {
@@ -300,18 +300,18 @@ img {
 
 /* Formalization section 2*/
 
-.advantages-container{
+.advantages-container {
   width: 1158px;
   margin: 0 auto;
 }
 
 .advantages-container-list {
   display: flex;
-  gap: 24px; 
+  gap: 24px;
 }
 
 .advantages-container-list-item {
-  width: calc((100% - 3 * 24px) / 4); 
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .advantages-h {
@@ -321,7 +321,7 @@ img {
 .advantages-flex {
   padding: 120px 0;
   margin: 0 auto;
-  display: flex;                                                     
+  display: flex;
 }
 
 /* Formalization section 3*/
@@ -375,7 +375,7 @@ img {
 
 .members-flex {
   width: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;                                  
+  border-radius: 0 0 4px 4px;
 }
 
 .name_job {
@@ -394,7 +394,7 @@ img {
 /* Formalization footer*/
 
 .footer-flex {
-  padding: 100px 0;                                                         /* Білі лінії по бокам */  
+  padding: 100px 0;                                                 /* Білі лінії по бокам */
 }
 
 .footer-logo {
@@ -408,54 +408,53 @@ img {
   padding-left: 156px;
 }
 
-
 /* Formalization Portfolio main*/
 
 .portfolio-section {
   padding: 96px 0 120px 0;
 }
 
-.portfolio-container{
+.portfolio-container {
   width: 1158px;
 }
 
-.portfolio-filter-list{
-  display:flex;
+.portfolio-filter-list {
+  display: flex;
   justify-content: center;
-  gap:24px;
+  gap: 24px;
   margin-bottom: 72px;
   width: 1440px;
 }
 
-.buttons-filter{
+.buttons-filter {
   padding: 12px 24px;
   border: 1px solid var(--button-filter-background);
-  border-radius: 3px;                                       /* поставить 4*/ 
+  border-radius: 3px;                                               /* поставить 4*/
 }
 
-.buttons-filter:hover, 
+.buttons-filter:hover,
 .buttons-filter:focus {
   border: 1px solid transparent;
 }
 
-.portfolio-items{
+.portfolio-items {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  justify-content: center;                                  /* Нерівні фото із текстом */
+  justify-content: center;                                        /* Нерівні фото із текстом */
 }
 
-.portfolio-list{
+.portfolio-list {
   width: calc((100% - 48px) / 3);
 }
 
-.name_category{
+.name_category {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-.name_category .portfolio-h{
-  margin-bottom: 8px;
+.name_category .portfolio-h {
+  margin-bottom: 8px;                                           /* Можливо ширина всієї сторінки некоректна ? */
 }
