@@ -415,6 +415,10 @@ img {
   padding: 96px 0 120px 0;
 }
 
+.portfolio-container{
+  width: 1158px;
+}
+
 .portfolio-filter-list{
   display:flex;
   justify-content: center;
@@ -443,7 +447,7 @@ img {
 }
 
 .portfolio-list{
-  width: calc((1128px - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .name_category{
