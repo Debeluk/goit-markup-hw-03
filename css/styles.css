@@ -40,6 +40,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .link {
@@ -244,12 +247,15 @@ img {
   padding-top: 18px;
 }
 
-.header-container {
-  display: flex;
+.container{
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: space-between;
   width: 1158px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-flex {
@@ -295,15 +301,10 @@ img {
   background-color: var(--button-background);
   border-radius: 4px;
   cursor: pointer;
-  margin: 48px auto 188px;
+  margin: 48px auto 0;
 }
 
 /* Formalization section 2*/
-
-.advantages-container {
-  width: 1158px;
-  margin: 0 auto;
-}
 
 .advantages-container-list {
   display: flex;
@@ -337,9 +338,6 @@ img {
 
 .deeds-h {
   margin-bottom: 72px;
-  margin-left: 400px;
-  max-width: 323px;
-  width: 323px;
 }
 
 .deeds-list {
@@ -394,28 +392,22 @@ img {
 /* Formalization footer*/
 
 .footer-flex {
-  padding: 100px 0;                                                 /* Білі лінії по бокам */
+  padding: 100px 0;                                                 
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  padding-left: 156px;
 }
 
 .p-footer {
   max-width: 264px;
-  padding-left: 156px;
 }
 
 /* Formalization Portfolio main*/
 
 .portfolio-section {
-  padding: 96px 0 120px 0;
-}
-
-.portfolio-container {
-  width: 1158px;
+  padding: 96px 0 72px;
 }
 
 .portfolio-filter-list {
@@ -423,7 +415,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  width: 1440px;
 }
 
 .buttons-filter {
@@ -441,8 +432,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
-  justify-content: center;                                        /* Нерівні фото із текстом */
+  row-gap: 48px;                                      
 }
 
 .portfolio-list {
