@@ -413,7 +413,7 @@ img {
 /* Formalization Portfolio main*/
 
 .portfolio-section {
-  padding: 96px 0 72px;
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-filter-list {
@@ -452,5 +452,5 @@ img {
 }
 
 .name_category .portfolio-h {
-  margin-bottom: 8px;                                           /* Можливо ширина всієї сторінки некоректна ? */
+  margin-bottom: 8px;                                           
 }
